@@ -11,8 +11,10 @@ function frameIt() {
 }
 
 function pressIt(){
-  $('input').on('keydown' function(){
-    if 
+  $('input').on('keydown' function(e){
+    if (e.key === 'g'){
+      
+    }
   })
 }
 
