@@ -1,17 +1,21 @@
-//define functions here
+function getIt(){
+      $('p').on('click', function(){
+      alert("Hey!");
+    });
+}
+
+function frameIt(){
+      $('img').on('load', function(){
+      $('img').addClass('tasty')
+      console.log('loaded')
+    });
+}
 
 $(document).ready(function(){
 
    
-    $('p').on('click', function(){
-      alert("Hey!");
-      console.log("clicked");
-    });
+
   
 
 
 });
-    $('img').on('load', function(){
-      $('img').addClass('tasty')
-      console.log('loaded')
-    });
