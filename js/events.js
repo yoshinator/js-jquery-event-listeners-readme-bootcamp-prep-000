@@ -8,9 +8,10 @@ $(document).ready(function(){
       console.log("clicked");
     });
   
+
+
+});
     $('img').on('load', function(){
       $('img').addClass('tasty')
       console.log('loaded')
     });
-
-});
