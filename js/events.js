@@ -10,7 +10,7 @@ $(document).ready(function(){
   
     $('img').on('load', function(){
       $('img').addClass('tasty')
-      alert("loaded!")
+      console.log('loaded')
     });
 
 });
