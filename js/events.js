@@ -2,6 +2,15 @@
 
 $(document).ready(function(){
 
-// call functions here
+   
+    $('p').on('click', function(){
+      alert("Hey!");
+      console.log("clicked");
+    });
+  
+    $('img').on('load', function(){
+      $('img').addClass('tasty')
+      alert("loaded!")
+    });
 
 });
