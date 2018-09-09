@@ -20,14 +20,15 @@ function pressIt(){
 
 function submitIt(){
   $('input').on('submit', function (){
-    alert("Your form is going to be submited now.")
-  })
+    alert("Your form is going to be submited now.");
+  });
 }
 
 $(document).ready(function(){
 
   getIt();
   frameIt();
-  pressIt()
+  pressIt();
+  submitIt();
 
 });
